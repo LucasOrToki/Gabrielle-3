@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff0f5">
+  <meta name="description" content="Uma surpresa feita com carinho para Gabrielle.">
+  <title>Para Gabrielle ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="floating-hearts" aria-hidden="true">
+    <span>♡</span><span>♥</span><span>♡</span><span>♥</span><span>♡</span><span>♥</span>
+  </div>
+  <main class="page">
+    <section class="card" aria-labelledby="main-title">
+      <div class="top-heart" aria-hidden="true">♥</div>
+      <p class="eyebrow">uma perguntinha especial...</p>
+      <h1 id="main-title">Gabrielle, <span>meu amor</span> 💗</h1>
+      <div class="divider"><span>♡</span></div>
+      <h2 id="question">Aceita namorar comigo?<span class="question-subtitle">(de novo rs)</span></h2>
+      <div class="buttons" id="buttons-area">
+        <button class="yes-button" id="yes-button" type="button">Sim, meu amor! 💖</button>
+        <button class="no-button" id="no-button" type="button">Não 🙈</button>
+      </div>
+      <p class="tiny-note" id="tiny-note">Dica: tenta clicar no “Não”... 👀</p>
+      <p class="signature">Feito com amor, só para você. ♡</p>
+    </section>
+  </main>
+  <div class="modal-backdrop" id="modal" hidden>
+    <section class="love-modal" role="dialog" aria-modal="true" aria-labelledby="success-title">
+      <button class="close-modal" id="close-modal" type="button" aria-label="Fechar">×</button>
+      <div class="celebration-heart" aria-hidden="true">💗</div>
+      <p class="eyebrow">eu sabia! 🥹</p>
+      <h2 id="success-title">Como se você tivesse direito de recusar hum</h2>
+      <div class="love-message" id="love-message"></div>
+      <p class="big-love">Eu te amo! ❤️</p>
+      <button class="yes-button modal-ok" id="modal-ok" type="button">Também te amo 💞</button>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
